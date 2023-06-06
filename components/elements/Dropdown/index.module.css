@@ -1,0 +1,41 @@
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dropdown toggle button */
+.dropdown-toggle {
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 4px 0;
+  min-width: 120px;
+  z-index: 1;
+}
+
+/* Dropdown menu items */
+.dropdown-menu li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Dropdown menu item hover effect */
+.dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}

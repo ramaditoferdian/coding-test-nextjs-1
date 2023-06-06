@@ -1,0 +1,9 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group > input {
+  border-radius: 4px;
+  padding: 6px;
+}

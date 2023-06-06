@@ -1,0 +1,28 @@
+.detail-news {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  margin: 3rem;
+}
+
+.detail-news__img-placeholder {
+  width: 800px;
+  height: 400px;
+  background-color: gray;
+  border-radius: 16px;
+}
+
+.detail-news__img-placeholder img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: all 0.5s ;
+}
+
+.detail-news__img-placeholder img:hover {
+  transform: scale(1.1);
+}
